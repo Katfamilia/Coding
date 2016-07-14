@@ -1,0 +1,135 @@
+*{border: 1px solid black;}
+#wrapper
+{
+	margin: auto;
+	width: 1220px;
+    max-width: 100%;
+}
+
+body { 
+	
+    background-color: pink;
+}
+
+header
+{ 
+background: url('../img/logojoy.jpg');
+height: 150px;
+max-width: 100%;
+}
+
+h1 {
+	color: gray;
+}
+
+h2 {
+	color: gray;
+}
+
+h3 {
+ color: gray; 
+font-family: sans-serif;
+text-decoration: none;
+}
+
+nav { 
+background-color: lightblue;
+color:white; }
+
+nav ul { 
+display: inline;
+text-decoration: none;
+color: white; }
+
+nav ul li {
+display: inline-block;
+padding: 1%;
+margin-left: 10%;
+text-decoration: none;
+font-size: 20px;
+font-family: sans-serif;
+}
+
+nav ul li a { 
+color: white;
+text-decoration: none; }
+
+
+ul li:hover {
+	background: gray;
+}
+
+
+
+aside 
+{
+    float: left;
+    border: 2px solid lightgreen;
+    text-decoration: none;
+    width: 27%;
+    display: inline;
+    color: white;
+    text-align: center;
+    color: lightblue;
+
+
+    
+}
+
+
+aside ul li {
+	display: block;
+	text-decoration: none;
+	font-size: 15px;
+font-family: sans-serif;
+
+}
+
+section {width: 57%;
+    float: left;
+
+}
+
+footer {
+	background-color: lightblue;
+    text-decoration: none;
+    bottom: 0;
+    width: 1220px;
+    height: 20px;
+    font-family: sans-serif;
+    color: white;
+    margin: auto;
+    clear: both;
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+body {
+        background-color: white; 
+        margin: 5%;
+}
+
+
+
+nav ul li{
+    display: block;
+}
+section{ 
+
+    width: 90%;
+    margin: auto;
+}
+  
+
+
+aside  { width: 50%; 
+margin: 20%;}
+
+
+}
+
+
+
