@@ -1,0 +1,135 @@
+#wrapper {
+width: 960px;
+margin: 0 auto;
+font-family: 'helvetica';
+}
+
+#principal { width: 1280px;
+             max-width: 100%; }
+
+
+ul {
+    list-style: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #231f20;
+    padding: 10px 15px;
+    display:block;
+    font-family: 'helvetica';
+    padding-left: 5%;
+    float: none;
+} 
+
+.menu li a:hover{
+    background-color:#231f20;
+    color: #ffffff;
+}
+
+.menu ul{
+    overflow: hidden;
+}
+
+.menu ul li{
+    float: left;
+    font-size: 25px;
+}
+
+.menu {
+    position: fixed;
+    z-index: 100%;
+    top: 5;
+    max-width: 100%;
+}
+
+
+h1{
+    padding-top: 1%;
+    font-size: 50px;
+    text-align: center;
+    font-family: helvetica;
+    color: gray;}
+
+
+p{
+    text-decoration: none;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    font-family: helvetica;
+    color: gray;
+    border-top: 
+}
+
+
+
+
+ 
+ .a { font-family: 
+    helvetica;
+   color: gray; }
+
+.c { font-family: 
+    helvetica;
+    color: gray; }
+
+#a { padding: 1%; }
+
+#b { padding: 1%; }
+
+
+footer{
+    text-align: center;
+    font-family: helvetica;
+    color: gray;
+}
+
+
+#cl{
+    float: right;
+}
+
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+   
+}
+
+.icon-magnifying-glass:before {
+    content: "\e908";
+}
+.icon-mail:before {
+    content: "\e900";
+}
+.icon-shopping-cart:before {
+    content: "\e901";
+}
+.icon-vine:before {
+    content: "\e902";
+}
+.icon-facebook:before {
+    content: "\e903";
+}
+.icon-instagram:before {
+    content: "\e904";
+}
+.icon-pinterest:before {
+    content: "\e905";
+}
+.icon-tumblr:before {
+    content: "\e906";
+}
+.icon-youtube:before {
+    content: "\e907";
+}
+
+
